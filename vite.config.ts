@@ -116,7 +116,7 @@ export default defineConfig((config) => {
   },
     preview: {
     allowedHosts: [
-      'nommand-bolt.mrt7ga.easypanel.host,
+      'nommand-bolt.mrt7ga.easypanel.host',
     ], // Permite o host do Easypanel
   },
     resolve: {
