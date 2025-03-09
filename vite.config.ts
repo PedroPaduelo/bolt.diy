@@ -112,9 +112,7 @@ export default defineConfig((config) => {
     },
     preview: {
     allowedHosts: [
-      'vds-vds-front-end.mrt7ga.easypanel.host',
-      'vds.plugin.front.end.nommand.com',
-      'unateams.vdsip.com.br',
+      'nommand-bolt.mrt7ga.easypanel.host,
     ], // Permite o host do Easypanel
   },
     resolve: {
