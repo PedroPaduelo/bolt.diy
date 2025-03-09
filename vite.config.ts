@@ -110,6 +110,10 @@ export default defineConfig((config) => {
         },
       },
     },
+    server: {
+    allowedHosts: true,
+    host: '0.0.0.0', // Permite conexões externas
+  },
     preview: {
     allowedHosts: [
       'nommand-bolt.mrt7ga.easypanel.host,
